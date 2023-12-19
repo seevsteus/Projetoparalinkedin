@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background-color: black;
+}
+header{
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #014f86;
+}
+
+.box{
+
+    height: 75vh;
+    border: solid 2px white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+
+}
+.box2{
+    border: solid 1px blue;
+    height: 65vh;
+    width: 22vw;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    position: relative;
+    background-color: #dad7cd;
+}
+.calculo{
+    border-radius: 6px 6px 6px 6px;
+    width: 20vw;
+    height: 12vh;
+    background-color: whitesmoke;
+    position: relative;
+    top: 12px;
+    left: 10px;
+    
+}
+.apagar{
+     height: 4vh;
+     width: 2vw;
+     border: none;
+    border-radius:50% ;
+    position: relative;
+    right: 3vh;
+    top: 7vh; ;
+    font-size: 1em;
+}
+button{
+    width: 4vw;
+    height: 9vh;
+    position: relative;
+    top:7px;
+    font-size: 2em;
+    
+}
+div{
+    height: 9vh;
+   
+    display: flex;
+    justify-content: space-evenly;
+}
+.numeros{
+    color: white;
+    background-color:black;
+    font-weight: bold;
+}
+.valores{
+    color: white;
+    background-color:#014f86;
+    font-weight: bold;
+
+}
+.igual{
+    background-color:red;
+}
